@@ -54,10 +54,44 @@
 }
 
 .hero__img-container {
+    position: relative;
     flex-basis: 40%;
 
     @media @phone {
         max-width: 80%;
         margin: 0 auto;
+    }
+}
+
+@keyframes arrows {
+    0% {
+        transform: translate3d(-50%, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(-50%, 6px, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+.hero__link {
+    display: block;
+    width: 54px;
+    height: 33px;
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    z-index: 1;
+    background: url("img/arrows-down.svg") no-repeat center;
+    background-size: contain;
+    animation: arrows 1s infinite;
+
+    @media @phone {
+        width: 44px;
+        bottom: 24px;
     }
 }

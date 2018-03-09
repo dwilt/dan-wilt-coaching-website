@@ -1185,6 +1185,7 @@ a:hover {
 }
 
 .hero__img-container {
+  position: relative;
   -webkit-flex-basis: 40%;
   -ms-flex: 0 1 40%;
   flex-basis: 40%;
@@ -1194,6 +1195,63 @@ a:hover {
   .hero__img-container {
     max-width: 80%;
     margin: 0 auto;
+  }
+}
+
+@-webkit-keyframes arrows {
+  0% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(-50%, 6px, 0);
+    transform: translate3d(-50%, 6px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes arrows {
+  0% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(-50%, 6px, 0);
+    transform: translate3d(-50%, 6px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.hero__link {
+  display: block;
+  width: 54px;
+  height: 33px;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+  z-index: 1;
+  background: url("img/arrows-down.svg") no-repeat center;
+  background-size: contain;
+  -webkit-animation: arrows 1s infinite;
+  animation: arrows 1s infinite;
+}
+
+@media (max-width: 767px) {
+  .hero__link {
+    width: 44px;
+    bottom: 24px;
   }
 }
 

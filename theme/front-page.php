@@ -13,15 +13,18 @@ get_header(); ?>
                 <p>Dan Wilt is an experienced front-end developer and Javascript enthusiast who works with developers and agency development teams looking to advance their Javascript skills and master mobile app development.</p>
                 <p>His coaching, training and online courses cut through the fluff and offer a customized approach to learning exactly what you need to know, so you can level up even faster.</p>
             </div>
-            <a href="/" class="btn">Learn More</a>
+            <a href="#cta" class="btn">Learn More</a>
         </div>
         <div class="hero__img-container">
             <img src="<?php echo IMAGES; ?>/app.svg" alt="" class="hero__img">
+            <a href="#cta" class="hero__link">
+                <span class="accessible-text">Learn more about building mobile apps.</span>
+            </a>
         </div>
     </div>
 </section>
 
-<section class="cta">
+<section class="cta" id="cta">
     <div class="container">
         <div class="cta__img-container">
             <img src="<?php echo IMAGES; ?>/laptop.svg" alt="Start developing mobile apps" class="cta__img">
