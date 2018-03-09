@@ -1,0 +1,51 @@
+.menuBar__container {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 26px;
+}
+
+.menuBar {
+    display: block;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 4px;
+    transition: 0.4s ease;
+
+    .nav__show & {
+
+    }
+
+    &:first-child {
+        top: 0;
+        margin-top: 0;
+
+        .nav__show & {
+            transform: rotate(45deg);
+            top: 11px;
+        }
+    }
+
+    &:nth-child(2) {
+
+        .nav__show & {
+            opacity: 0;
+        }
+    }
+
+    &:last-child {
+        top: auto;
+        bottom: 0;
+        margin-top: 0;
+
+        .nav__show & {
+            transform: rotate(-45deg);
+            bottom: 11px;
+        }
+    }
+}

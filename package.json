@@ -1,0 +1,33 @@
+{
+  "name": "jacobsimondesign",
+  "version": "1.0.0",
+  "description": "Website for Dan Wilt Coaching",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "themeSettings": {
+    "themeFolder": "danwiltcoaching",
+    "themePrefix": "kpg",
+    "themeName": "Dan Wilt Coaching",
+    "themeAuthor": "Jacob Simon Design",
+    "themeAuthorURL": "http://jacobsimon.com",
+    "themeDescription": "Theme for Dan Wilt Coaching",
+    "themeVersion": "1.0"
+  },
+  "author": "Jacob Simon Design",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt-autoprefixer": "~0.4.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-compress": "~0.11.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "~0.6.0",
+    "grunt-contrib-less": "^0.12.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-less-import-options": "^0.1.6",
+    "grunt-webfont": "~0.4.8",
+    "jquery": "^2.2.0",
+    "less": "^2.6.0"
+  }
+}

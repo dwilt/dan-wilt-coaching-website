@@ -1,0 +1,61 @@
+// --------------------------------------------------
+// Global Extends
+// --------------------------------------------------
+
+.clearfix {
+
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+.accessible-text {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    top: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    min-width: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: @blue;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    transition: 0.2s ease;
+
+    &:hover {
+        color: #ffffff;
+        background-color: darken(@blue, 15%);
+    }
+
+    &.btn--large {
+        min-width: 300px;
+
+        @media @phone {
+            min-width: 0;
+            display: block;
+        }
+    }
+}

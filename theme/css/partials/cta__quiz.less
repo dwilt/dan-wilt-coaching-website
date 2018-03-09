@@ -1,0 +1,32 @@
+.cta__quiz {
+    padding: 48px 0;
+    border-top: 1px solid #E8E8E8;
+    background-color: #F7F7F7;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        @media @phone {
+            display: block;
+        }
+    }
+}
+
+.cta__quiz-inner {
+    flex: 1;
+    max-width: 768px;
+
+    @media @phone {
+        margin-bottom: 24px;
+    }
+}
+
+.cta__quiz-title {
+    margin-bottom: 2px;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: @blue-dark;
+    text-transform: uppercase;
+}

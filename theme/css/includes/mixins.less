@@ -1,0 +1,13 @@
+// -------------------------------------------------------------------
+// Global Mixins
+// --------------------------------------------------
+
+.font-size(...) {
+    font-size: unit(@arguments, px);
+    font-size: unit((@arguments / 10), rem);
+}
+
+.line-height(...) {
+    line-height: unit(@arguments, px);
+    line-height: unit((@arguments / 10), rem);
+}
