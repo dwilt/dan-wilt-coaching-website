@@ -522,6 +522,10 @@ blockquote p {
   width: 100%;
 }
 
+.mc4wp-response {
+  text-align: center;
+}
+
 .header {
   position: fixed;
   left: 0;
