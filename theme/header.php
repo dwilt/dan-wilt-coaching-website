@@ -9,6 +9,7 @@
 
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
         <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico">
+        <link rel="stylesheet" href="../app/wp-content/themes/danwiltcoaching/style.css">
 
         <?php wp_head(); ?>
     </head>
