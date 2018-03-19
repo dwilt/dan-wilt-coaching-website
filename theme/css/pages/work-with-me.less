@@ -1,0 +1,216 @@
+.hero__training {
+    padding: 128px 0;
+    border-bottom: 1px solid #d3d3d3;
+
+    @media @phone {
+        padding: 32px 0;
+    }
+}
+
+.hero__training-title {
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+
+    @media @phone {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+}
+
+.hero__training-description {
+    max-width: 678px;
+    margin: 0 auto 56px;
+    font-size: 23px;
+    line-height: 1.5;
+    text-align: center;
+
+    @media @phone {
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+}
+
+.hero__training-inner {
+    display: flex;
+    justify-content: center;
+
+    @media @phone {
+        display: block;
+    }
+}
+
+.hero__training-link {
+    flex: 1;
+    display: block;
+    max-width: 340px;
+    padding: 24px 16px;
+    border-left: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333333;
+    transition: 0.2s ease;
+
+    @media @tablet-portrait {
+        font-size: 22px;
+    }
+
+    @media @phone {
+        margin: 0 auto;
+        border-left: 0;
+        border-top: 1px solid #d3d3d3;
+        font-size: 24px;
+        padding: 16px 0;
+    }
+
+    &:hover {
+        background-color: #f9f9f9;
+        color: @blue;
+    }
+
+    &:first-child {
+        border-left: none;
+
+        @media @phone {
+            border-top: none;
+        }
+    }
+}
+
+.hero__training-img {
+    display: block;
+    height: 80px;
+    width: auto;
+    margin: 0 auto 8px;
+
+    @media @phone {
+        height: 60px;
+    }
+}
+
+.trainingOptions {
+    padding: 24px 0;
+}
+
+.trainingOption {
+    padding: 64px 0;
+
+    @media @phone {
+
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &:nth-child(odd) {
+
+        .container {
+            flex-direction: row-reverse;
+        }
+    }
+
+    &:nth-child(even) {
+        background-color: #F7F7F7;
+    }
+
+    .container {
+        max-width: 960px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        @media @phone {
+            display: block;
+        }
+    }
+}
+
+.trainingOption__img-container {
+    flex-basis: 40%;
+
+    @media @phone {
+        max-width: 200px;
+        margin: 0 auto 8px;
+    }
+}
+
+.trainingOption__img {
+    display: block;
+    max-width: 70%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.trainingOption__container {
+    flex-basis: 60%;
+}
+
+.trainingOption__title {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+    @media @phone {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+}
+
+.trainingOption__description {
+    font-size: 20px;
+    margin-bottom: 56px;
+
+    @media @phone {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+.trainingOption__subtitle {
+    font-size: 22px;
+    margin-bottom: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    @media @phone {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+}
+
+.trainingOption__list {
+    list-style-type: disc;
+    margin-bottom: 24px;
+    padding-left: 24px;
+
+    @media @phone {
+        font-size: 16px;
+    }
+}
+
+.trainingOption__price {
+    color: @blue-dark;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    @media @phone {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+.trainingOption__link-container {
+
+    @media @phone {
+        text-align: center;
+    }
+}
