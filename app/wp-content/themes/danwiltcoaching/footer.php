@@ -1,7 +1,7 @@
         <footer class="footer">
             <div class="container">
                 <p class="copyright">&copy; <?php echo date("Y"); ?> Dan Wilt Coaching</p>
-                <div>
+                <div class="footer__inner">
                     <a href="mailto:info@danwiltcoaching.com" class="email__link">info@danwiltcoaching.com</a>
                     <?php if( have_rows('social_media', 'option') ): ?>
                     <div class="social-media">

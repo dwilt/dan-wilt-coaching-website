@@ -124,7 +124,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__img-container">
                 <img src="<?php echo IMAGES; ?>/dan.png" alt="Dan Wilt" class="about__img">
@@ -132,9 +132,9 @@ get_header(); ?>
             <div class="about__content">
                 <h2 class="about__title">Hi, I’m Dan.</h2>
                 <div class="entry-content">
-                    <p>I’ve experienced, first hand, how understanding the foundations of Javascript opens up new opportunities for front-end developers. This exactly why I’m passionate about coaching and training other developers who want to get “unstuck” and master Javascript so they can start building web and mobile apps.</p>
-                    <p>When I teach a student something complex that they’re struggling to understand, then, suddenly it clicks - I love seeing them achieve that, “Aha” moment.</p>
-                    <p>I know this stuff can be tough and overwhelming to learn; I had to put in a lot of time figuring it out and overcoming the roadblocks. But that process helped me realized what’s essential when it comes to mastering the fundamentals of Javascript to start developing mobile apps.</p>
+                    <p>I’ve experienced, first hand, how understanding the foundations of Javascript opens up new opportunities for front-end developers. This is exactly why I’m passionate about coaching and training other developers who want to get “unstuck” and master Javascript so they can start building web and mobile apps.</p>
+                    <p>I love teaching a student something complex that they are struggling with and seeing them achieve that “Aha” moment when it finally clicks.</p>
+                    <p>I know this stuff can be tough and overwhelming to learn; I had to put in a lot of time figuring it out and overcoming the roadblocks. But that process helped me realize what’s essential when it comes to mastering the fundamentals of Javascript to start developing mobile apps.</p>
                 </div>
                 <div class="experience">
                     <div class="experience__logo-container">

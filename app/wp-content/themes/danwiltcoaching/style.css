@@ -404,6 +404,7 @@ blockquote p {
   outline: none;
   -webkit-appearance: none;
   border-radius: 5px;
+  cursor: pointer;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
@@ -451,7 +452,7 @@ blockquote p {
   align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 320px) {
   .footer .container {
     display: block;
     text-align: center;
@@ -465,14 +466,60 @@ blockquote p {
 
 @media (max-width: 767px) {
   .copyright {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .copyright {
     margin-bottom: 8px;
   }
 }
 
 .email__link {
+  display: block;
   font-size: 14px;
   font-weight: 700;
   color: #333333;
+}
+
+@media (max-width: 767px) {
+  .email__link {
+    font-size: 12px;
+  }
+}
+
+.input__container {
+  margin-bottom: 25px;
+}
+
+.input__container label {
+  display: block;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.input__container input {
+  display: block;
+  width: 100%;
+  border: 2px solid #f1f1f1;
+  height: 56px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  line-height: 56px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+  padding: 0 20px;
+}
+
+.submit__container input {
+  display: block;
+  width: 100%;
 }
 
 .header {
@@ -1547,6 +1594,66 @@ a:hover {
   line-height: 1;
   letter-spacing: 0.2px;
   font-weight: 700;
+}
+
+.page-courses {
+  padding: 64px 0;
+}
+
+@media (max-width: 767px) {
+  .page-courses {
+    padding: 48px 0;
+  }
+}
+
+.page-courses .container {
+  max-width: 768px;
+}
+
+.courses__title {
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .courses__title {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .courses__title {
+    font-size: 24px;
+  }
+}
+
+.courses__description {
+  margin: 0 auto 56px;
+  font-size: 23px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .courses__description {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .courses__description {
+    font-size: 16px;
+  }
+}
+
+.courses__form {
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .hero__training {

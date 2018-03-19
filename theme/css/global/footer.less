@@ -13,6 +13,10 @@
         align-items: center;
 
         @media @phone {
+
+        }
+
+        @media (max-width: 320px) {
             display: block;
             text-align: center;
         }
@@ -24,12 +28,21 @@
     font-weight: 700;
 
     @media @phone {
+        font-size: 12px;
+    }
+
+    @media (max-width: 320px) {
         margin-bottom: 8px;
     }
 }
 
 .email__link {
+    display: block;
     font-size: 14px;
     font-weight: 700;
     color: #333333;
+
+    @media @phone {
+        font-size: 12px;
+    }
 }
