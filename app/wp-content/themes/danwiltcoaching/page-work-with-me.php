@@ -64,7 +64,7 @@ get_header();
                     </ul>
                     <p class="trainingOption__price">$60/hr</p>
                     <div class="trainingOption__link-container">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>courses" class="btn">Book a Coaching Call</a>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn">Book a Coaching Call</a>
                     </div>
                 </div>
             </div>
@@ -83,9 +83,9 @@ get_header();
                         <li>Customized lessons and exercises to help your dev team master JavaScript fundamentals they need to complete existing and future agency projects</li>
                         <li>Flexible timeline to ensure your team learns what they need to know</li>
                     </ul>
-                    <p class="trainingOption__price">Price is variable based on your agency’s needs</p>
+                    <p class="trainingOption__price">Price is variable based on your agency’s needs. Book a call to learn more!</p>
                     <div class="trainingOption__link-container">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn">Learn More</a>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn">Book a Call</a>
                     </div>
                 </div>
             </div>
