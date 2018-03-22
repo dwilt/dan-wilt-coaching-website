@@ -50,26 +50,22 @@
     border-left: 1px solid #d3d3d3;
     box-sizing: border-box;
     text-align: center;
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
     color: #333333;
     transition: 0.2s ease;
-
-    @media @tablet-portrait {
-        font-size: 22px;
-    }
 
     @media @phone {
         margin: 0 auto;
         border-left: 0;
         border-top: 1px solid #d3d3d3;
-        font-size: 24px;
         padding: 16px 0;
     }
 
     &:hover {
         background-color: #f9f9f9;
-        color: @blue;
+        color: @blue-dark;
     }
 
     &:first-child {
@@ -83,12 +79,17 @@
 
 .hero__training-img {
     display: block;
-    height: 80px;
-    width: auto;
-    margin: 0 auto 8px;
+    margin-bottom: 8px;
 
-    @media @phone {
-        height: 60px;
+    svg {
+        height: 80px;
+        width: auto;
+        margin: 0 auto;
+        fill: @blue-dark;
+
+        @media @phone {
+            height: 60px;
+        }
     }
 }
 
@@ -137,14 +138,15 @@
         max-width: 200px;
         margin: 0 auto 8px;
     }
-}
 
-.trainingOption__img {
-    display: block;
-    max-width: 70%;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+    svg {
+        display: block;
+        max-width: 70%;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        fill: @blue-dark;
+    }
 }
 
 .trainingOption__container {

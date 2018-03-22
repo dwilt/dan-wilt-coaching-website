@@ -71,7 +71,7 @@ get_header(); ?>
             </div>
             <div class="service">
                 <div class="service__img-container">
-                    <img src="<?php echo IMAGES; ?>/present.svg" alt="group training" class="service__img">
+                    <img src="<?php echo IMAGES; ?>/presentation.svg" alt="group training" class="service__img">
                 </div>
                 <div class="service__container">
                     <h2 class="service__title">Interested in group training for your agency’s development team?</h2>

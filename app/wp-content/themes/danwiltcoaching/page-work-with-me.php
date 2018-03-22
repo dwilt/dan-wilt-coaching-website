@@ -12,15 +12,21 @@ get_header();
             <p class="hero__training-description">We offer a variety of training and coaching options on an individual level and to large groups. Choose the option below that best suits your needs and we’ll tell you a little more about it.</p>
             <div class="hero__training-inner">
                 <a href="#1-on-1-training" class="hero__training-link">
-                    <img src="<?php echo IMAGES; ?>/headset.svg" alt="1-on-1 training" class="hero__training-img">
+                    <div class="hero__training-img">
+                        <?php echo file_get_contents(IMAGES_SERVER . '/headset.svg'); ?>
+                    </div>
                     Training for myself
                 </a>
                 <a href="#quick-fix-coaching" class="hero__training-link">
-                    <img src="<?php echo IMAGES; ?>/code.svg" alt="quick fix coaching" class="hero__training-img">
+                    <div class="hero__training-img">
+                        <?php echo file_get_contents(IMAGES_SERVER . '/code.svg'); ?>
+                    </div>
                     Just a quick fix
                 </a>
                 <a href="#training-consulting-for-agency-dev-teams" class="hero__training-link">
-                    <img src="<?php echo IMAGES; ?>/present.svg" alt="training & consulting for agency dev teams" class="hero__training-img">
+                    <div class="hero__training-img">
+                        <?php echo file_get_contents(IMAGES_SERVER . '/presentation.svg'); ?>
+                    </div>
                     Training for my team
                 </a>
             </div>
@@ -30,7 +36,7 @@ get_header();
         <div class="trainingOption" id="1-on-1-training">
             <div class="container">
                 <div class="trainingOption__img-container">
-                    <img src="<?php echo IMAGES; ?>/headset.svg" alt="1-on-1 coaching" class="trainingOption__img">
+                    <?php echo file_get_contents(IMAGES_SERVER . '/headset.svg'); ?>
                 </div>
                 <div class="trainingOption__container">
                     <h2 class="trainingOption__title">Customized 1-on-1 Training</h2>
@@ -51,7 +57,7 @@ get_header();
         <div class="trainingOption" id="quick-fix-coaching">
             <div class="container">
                 <div class="trainingOption__img-container">
-                    <img src="<?php echo IMAGES; ?>/code.svg" alt="develop mobile apps" class="trainingOption__img">
+                    <?php echo file_get_contents(IMAGES_SERVER . '/code.svg'); ?>
                 </div>
                 <div class="trainingOption__container">
                     <h2 class="trainingOption__title">Quick Fix Coaching</h2>
@@ -72,7 +78,7 @@ get_header();
         <div class="trainingOption" id="training-consulting-for-agency-dev-teams">
             <div class="container">
                 <div class="trainingOption__img-container">
-                    <img src="<?php echo IMAGES; ?>/present.svg" alt="group training" class="trainingOption__img">
+                    <?php echo file_get_contents(IMAGES_SERVER . '/presentation.svg'); ?>
                 </div>
                 <div class="trainingOption__container">
                     <h2 class="trainingOption__title">Training & Consulting For Agency Dev Teams</h2>
