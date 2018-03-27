@@ -49,7 +49,7 @@ get_header();
                     </ul>
                     <p class="trainingOption__price">$60/hr</p>
                     <div class="trainingOption__link-container">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn">Book a Training Call</a>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>book-a-training-call/" class="btn">Book a Training Call</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ get_header();
                     </ul>
                     <p class="trainingOption__price">$60/hr</p>
                     <div class="trainingOption__link-container">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn">Book a Coaching Call</a>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>book-a-coaching-call" class="btn">Book a Coaching Call</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@ get_header();
                     </ul>
                     <p class="trainingOption__price">Price is variable based on your agency’s needs. Book a call to learn more!</p>
                     <div class="trainingOption__link-container">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn">Book a Call</a>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>book-a-call" class="btn">Book a Call</a>
                     </div>
                 </div>
             </div>

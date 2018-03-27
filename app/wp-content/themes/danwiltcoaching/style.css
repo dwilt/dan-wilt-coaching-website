@@ -1670,6 +1670,57 @@ a:hover {
   margin: 0 auto;
 }
 
+.page-form {
+  padding: 80px 0;
+}
+
+@media (max-width: 767px) {
+  .page-form {
+    padding: 64px 0;
+  }
+}
+
+.form__title {
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .form__title {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form__title {
+    font-size: 24px;
+  }
+}
+
+.form__description {
+  margin: 0 auto 56px;
+  font-size: 23px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .form__description {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form__description {
+    font-size: 16px;
+  }
+}
+
 .hero__training {
   padding: 128px 0;
   border-bottom: 1px solid #d3d3d3;
