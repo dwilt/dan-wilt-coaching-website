@@ -1048,7 +1048,9 @@ a:hover {
 }
 
 .cta__img-container {
-  max-width: 308px;
+  -webkit-flex-basis: 40%;
+  -ms-flex: 0 1 40%;
+  flex-basis: 40%;
   margin-right: 24px;
 }
 
@@ -1062,7 +1064,15 @@ a:hover {
 .cta__img {
   display: block;
   width: 100%;
+  max-width: 280px;
   height: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .cta__img {
+    max-width: 70%;
+  }
 }
 
 .cta__content {
@@ -1660,6 +1670,57 @@ a:hover {
   margin: 0 auto;
 }
 
+.page-form {
+  padding: 80px 0;
+}
+
+@media (max-width: 767px) {
+  .page-form {
+    padding: 64px 0;
+  }
+}
+
+.form__title {
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .form__title {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form__title {
+    font-size: 24px;
+  }
+}
+
+.form__description {
+  margin: 0 auto 56px;
+  font-size: 23px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .form__description {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form__description {
+    font-size: 16px;
+  }
+}
+
 .hero__training {
   padding: 128px 0;
   border-bottom: 1px solid #d3d3d3;
@@ -1730,17 +1791,12 @@ a:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
   color: #333333;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-}
-
-@media (max-width: 959px) {
-  .hero__training-link {
-    font-size: 22px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -1748,14 +1804,13 @@ a:hover {
     margin: 0 auto;
     border-left: 0;
     border-top: 1px solid #d3d3d3;
-    font-size: 24px;
     padding: 16px 0;
   }
 }
 
 .hero__training-link:hover {
   background-color: #f9f9f9;
-  color: #37b9f1;
+  color: #2f658c;
 }
 
 .hero__training-link:first-child {
@@ -1770,13 +1825,18 @@ a:hover {
 
 .hero__training-img {
   display: block;
+  margin-bottom: 8px;
+}
+
+.hero__training-img svg {
   height: 80px;
   width: auto;
-  margin: 0 auto 8px;
+  margin: 0 auto;
+  fill: #2f658c;
 }
 
 @media (max-width: 767px) {
-  .hero__training-img {
+  .hero__training-img svg {
     height: 60px;
   }
 }
@@ -1839,12 +1899,13 @@ a:hover {
   }
 }
 
-.trainingOption__img {
+.trainingOption__img-container svg {
   display: block;
   max-width: 70%;
   width: 100%;
   height: auto;
   margin: 0 auto;
+  fill: #2f658c;
 }
 
 .trainingOption__container {

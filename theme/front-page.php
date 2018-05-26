@@ -53,7 +53,7 @@ get_header(); ?>
                     <h2 class="service__title">Want 1-on-1 coaching & training that’s tailored to your needs?</h2>
                     <p class="service__description">As your coach, I’ll learn where you’re stuck and tailor the training experience to your needs and goals. This is the fast-track to advance your skills, since we’ll only spend time covering exactly what you need to know.</p>
                     <div class="service__link-container">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn">Book a Call</a>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>work-with-me" class="btn">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -71,13 +71,13 @@ get_header(); ?>
             </div>
             <div class="service">
                 <div class="service__img-container">
-                    <img src="<?php echo IMAGES; ?>/present.svg" alt="group training" class="service__img">
+                    <img src="<?php echo IMAGES; ?>/presentation.svg" alt="group training" class="service__img">
                 </div>
                 <div class="service__container">
                     <h2 class="service__title">Interested in group training for your agency’s development team?</h2>
                     <p class="service__description">I offer front-end development group trainings, customized to fit your team’s needs and current skillset. I’ll also adapt my approach based on your agency’s goals so that your team will be ready to tackle more complex client projects.</p>
                     <div class="service__link-container">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn">Contact Me</a>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>work-with-me" class="btn">Learn More</a>
                     </div>
                 </div>
             </div>

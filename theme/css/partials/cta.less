@@ -28,7 +28,7 @@
 }
 
 .cta__img-container {
-    max-width: 308px;
+    flex-basis: 40%;
     margin-right: 24px;
 
     @media @phone {
@@ -40,7 +40,13 @@
 .cta__img {
     display: block;
     width: 100%;
+    max-width: 280px;
     height: auto;
+    margin: 0 auto;
+
+    @media @phone {
+        max-width: 70%;
+    }
 }
 
 .cta__content {
