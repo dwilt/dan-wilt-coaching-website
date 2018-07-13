@@ -103,7 +103,7 @@ get_header(); ?>
                             <p class="testimonial">“I would recommend Dan for two reasons: (1) He’s a great developer and (2) a great teacher. On the developer side, he’s extremely knowledgeable about JavaScript and all things related to building apps. On the teacher side, he’s patient and has a good way of explaining things and filling in the gaps.”</p>
                             <div class="testimonial__author-container">
                                 <div class="testimonial__author">
-                                    <img src="<?php echo IMAGES; ?>/joe.png" alt="Jake R" class="testimonial__author-img">
+                                    <img src="<?php echo IMAGES; ?>/joe.png" alt="Joe Y" class="testimonial__author-img">
                                     <p class="testimonial__author-name">Joe Y</p>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@ get_header(); ?>
                             <p class="testimonial">“Dan gave me a solid foundation for best practices, which I’ve found to be extremely valuable. A lot of developers don’t code with best practices and therefore it can be hard to distinguish between what’s good and bad if you’re a beginner and don’t know any better.”</p>
                             <div class="testimonial__author-container">
                                 <div class="testimonial__author">
-                                    <img src="<?php echo IMAGES; ?>/jake-repash-sm.png" alt="Jake R" class="testimonial__author-img">
+                                    <img src="<?php echo IMAGES; ?>/amie.png" alt="Amie W" class="testimonial__author-img">
                                     <p class="testimonial__author-name">Amie W</p>
                                 </div>
                             </div>
