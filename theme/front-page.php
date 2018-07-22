@@ -63,7 +63,7 @@ get_header(); ?>
                 </div>
                 <div class="service__container">
                     <h2 class="service__title">Ready to learn to develop mobile apps using React Native?</h2>
-                    <p class="service__description">My new course will teach you [main takeaway for course participants], so that [benefit of learning this]. Enrollment opens soon. Click below to learn more and get on the waitlist.</p>
+                    <p class="service__description">My new course will teach you the fundamentals of JavaScript, so that you have the tools and skills you need to build mobile and web applications. Enrollment opens soon. Click below to learn more and get on the waitlist.</p>
                     <div class="service__link-container">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>courses" class="btn">Learn More</a>
                     </div>
