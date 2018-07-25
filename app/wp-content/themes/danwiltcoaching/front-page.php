@@ -63,7 +63,7 @@ get_header(); ?>
                 </div>
                 <div class="service__container">
                     <h2 class="service__title">Ready to learn to develop mobile apps using React Native?</h2>
-                    <p class="service__description">My new course will teach you [main takeaway for course participants], so that [benefit of learning this]. Enrollment opens soon. Click below to learn more and get on the waitlist.</p>
+                    <p class="service__description">My new course will teach you the fundamentals of JavaScript, so that you have the tools and skills you need to build mobile and web applications. Enrollment opens soon. Click below to learn more and get on the waitlist.</p>
                     <div class="service__link-container">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>courses" class="btn">Learn More</a>
                     </div>
@@ -91,7 +91,7 @@ get_header(); ?>
                 <div class="testimonials__slider-container">
                     <div class="testimonials__slider">
                         <div>
-                            <p class="testimonial">“Dan is capable of teaching developers of all experience levels. He has the unique ability to simplify and clearly explain complex coding concepts. He has a passion for teaching code that makes you excited to learn more. He’s able to boil down key lessons that he learned throughout his years of experience and deliver them in a clear, logical way. a fast lane to best practices.”</p>
+                            <p class="testimonial">“Dan is capable of teaching developers of all experience levels. He has the unique ability to simplify and clearly explain complex coding concepts. He has a passion for teaching code that makes you excited to learn more. He’s able to boil down key lessons that he learned throughout his years of experience and deliver them in a clear, logical way. A fast lane to best practices.”</p>
                             <div class="testimonial__author-container">
                                 <div class="testimonial__author">
                                     <img src="<?php echo IMAGES; ?>/jake-repash-sm.png" alt="Jake R" class="testimonial__author-img">

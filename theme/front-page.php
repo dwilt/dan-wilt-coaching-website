@@ -91,7 +91,7 @@ get_header(); ?>
                 <div class="testimonials__slider-container">
                     <div class="testimonials__slider">
                         <div>
-                            <p class="testimonial">“Dan is capable of teaching developers of all experience levels. He has the unique ability to simplify and clearly explain complex coding concepts. He has a passion for teaching code that makes you excited to learn more. He’s able to boil down key lessons that he learned throughout his years of experience and deliver them in a clear, logical way. a fast lane to best practices.”</p>
+                            <p class="testimonial">“Dan is capable of teaching developers of all experience levels. He has the unique ability to simplify and clearly explain complex coding concepts. He has a passion for teaching code that makes you excited to learn more. He’s able to boil down key lessons that he learned throughout his years of experience and deliver them in a clear, logical way. A fast lane to best practices.”</p>
                             <div class="testimonial__author-container">
                                 <div class="testimonial__author">
                                     <img src="<?php echo IMAGES; ?>/jake-repash-sm.png" alt="Jake R" class="testimonial__author-img">
